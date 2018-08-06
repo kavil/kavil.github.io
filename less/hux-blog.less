@@ -13,6 +13,7 @@ body {
 	color: @gray-dark;
 	//-webkit-user-select:text; //对于 Blog 还是先不开启这句。
 	overflow-x : hidden;
+	transition: .2s;
 }
 
 // -- Typography
@@ -40,6 +41,7 @@ h4{
 }
 a {
 	color: @gray-dark;
+	transition: .2s;
 	&:hover,
 	&:focus {
 		color: @brand-primary;
@@ -492,6 +494,9 @@ pre code{
 .post-preview {
 	> a {
 		color: @gray-dark;
+		h2, h3 {
+			display: inline-block;
+		}
 		&:hover,
 		&:focus {
 			text-decoration: none;
@@ -548,9 +553,11 @@ pre code{
 .post-content-preview{
     font-size: 13px;
     font-style: italic;
-    color:#a3a3a3;
+	color:#a3a3a3;
+	transition: .2s;
     &:hover{
         color: @brand-primary;
+		transition: .2s;
     }
     @media only screen and (min-width: 768px) {
         font-size:14px;
