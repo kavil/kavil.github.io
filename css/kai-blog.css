@@ -1,3 +1,8 @@
+/*!
+ * kai Blog v1.7.0 (http://kavil.github.io)
+ * Copyright 2018 kai <huangkai361@gmail.com>
+ */
+
 @media (min-width: 1200px) {
   .post-container,
   .sidebar-container {
@@ -309,6 +314,7 @@ body {
   font-size: 16px;
   color: #404040;
   overflow-x: hidden;
+  transition: .2s;
 }
 p {
   margin: 30px 0;
@@ -333,6 +339,7 @@ h4 {
 }
 a {
   color: #404040;
+  transition: .2s;
 }
 a:hover,
 a:focus {
@@ -777,6 +784,10 @@ pre code {
 .post-preview > a {
   color: #404040;
 }
+.post-preview > a h2,
+.post-preview > a h3 {
+  display: inline-block;
+}
 .post-preview > a:hover,
 .post-preview > a:focus {
   text-decoration: none;
@@ -828,9 +839,11 @@ pre code {
   font-size: 13px;
   font-style: italic;
   color: #a3a3a3;
+  transition: .2s;
 }
 .post-content-preview:hover {
   color: #0085a1;
+  transition: .2s;
 }
 @media only screen and (min-width: 768px) {
   .post-content-preview {
