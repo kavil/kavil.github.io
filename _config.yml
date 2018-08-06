@@ -93,6 +93,6 @@ service-worker: true
 friends: [
     {
         title: "前端外刊评论",
-        href: "http://qianduan.guru/"
+        href: "https://zhuanlan.zhihu.com/FrontendMagazine"
     }
 ]
