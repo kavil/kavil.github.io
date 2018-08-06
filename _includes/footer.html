@@ -273,6 +273,7 @@
     var $en = document.querySelector(".en");
     var $select = document.querySelector("select");
 
+    if(!$select) return;
     // bind hashchange event
     // Changes at v1.7.2: change the language flag from hash-basing to in-memory basing
     // due to its confliction with catalog anchors.
