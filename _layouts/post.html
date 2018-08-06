@@ -161,15 +161,18 @@ layout: default
     </div>
 </article>
 
-<div id="comments"></div>
+<div id="comments"class="
+    col-lg-8 col-lg-offset-2
+    col-md-10 col-md-offset-1
+    sidebar-container"></div>
 
 <script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
 
 <script type="text/javascript">
     const gitment = new Gitment({
     id: '{{page.id}}', // optional
-    owner: 'kavil@qq.com',
-    repo: 'https://github.com/kavil/kavil.github.io.git',
+    owner: 'kavil',
+    repo: 'kavil.github.io.git',
     oauth: {
         client_id: 'b3cc221325bea6d4cdf3',
         client_secret: '649585c67bfdf836b6da6c7423d802e62240063f',
