@@ -46,16 +46,6 @@
                         </a>
                     </li>
                     {% endif %}
-                    {% if site.email %}
-                    <li>
-                        <a href="mailto:{{ site.email }}">
-                            <span class="fa-stack fa-lg">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
-                            </span>
-                        </a>
-                    </li>
-                    {% endif %}
 
 
                     {% if site.facebook_username %}
@@ -88,16 +78,22 @@
                         </a>
                     </li>
                     {% endif %}
+
+                    {% if site.email %}
+                    <li>
+                        <a href="mailto:{{ site.email }}">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    {% endif %}
                 </ul>
                 <p class="copyright text-muted">
                     Copyright &copy; {{ site.title }} {{ site.time | date: '%Y' }}
                     <br>
-                    Theme by Hux |
-                    <iframe
-                        style="margin-left: 2px; margin-bottom:-5px;"
-                        frameborder="0" scrolling="0" width="100px" height="20px"
-                        src="https://ghbtns.com/github-btn.html?user=huxpro&repo=huxpro.github.io&type=star&count=true" >
-                    </iframe>
+                    Theme by Hux
                 </p>
             </div>
         </div>
