@@ -1,91 +1,3 @@
-# Hux Blog
-
-### [View Live Hux Blog &rarr;](https://huangxuan.me)
-
-![](http://huangxuan.me/img/blog-desktop.jpg)
-
-
-
-## Boilerplate (beta)
-
-Want to clone a boilerplate instead of my buzz blog? Here comes this!  
-
-```
-$ git clone git@github.com:Huxpro/huxblog-boilerplate.git
-```
-
-**[View Boilerplate Here &rarr;](http://huangxuan.me/huxblog-boilerplate/)**
-
-
-## Porting 
-
-- [**Hexo**](https://github.com/Kaijun/hexo-theme-huxblog) by @kaijun
-- [**React-SSR**](https://github.com/LucasIcarus/huxpro.github.io/tree/ssr) by @LucasIcarus
-
-## Translation
-
- - ![cn](https://raw.githubusercontent.com/gosquared/flags/master/flags/flags/shiny/24/China.png) **Chinese (Simplified)**: 感谢 [@BrucZhaoR](https://github.com/BruceZhaoR) 的 [中文翻译 &rarr;](https://github.com/Huxpro/huxpro.github.io/blob/master/README.zh.md)
-
-## Features
-
-##### New Feature (V1.5.2)
-
-- Annoyed to delete my blog post after clone or pull? **Boilerplate** comes to help you get started quickly and easily merge update.
-- `-apple-system` is added in font rule, which display beautiful new font **San Francisco** in iOS 9 by default.
-- Fixed [issue#15](https://github.com/Huxpro/huxpro.github.io/issues/15) about code wrap.
-
-##### New Feature (V1.5.1)
-
-- **[Comment](#comment)** support [**Disqus**](http://disqus.com) officially, thanks to @rpsh.
-
-##### New Feature (V1.5)
-
-- **[Comment](#comment)** and **[Analytics](#analytics)** is configurable now! We also add **Google Analytics support** and drop tencents. Both documents is updated.
-
-##### New Feature (V1.4)
-
-- **[Featured Tags](#featured-tags)** is now independent of [SideBar](#sidebar). Both documents is updated.
-- New **[SEO Title](#seo-title)** for SEO usage which is differ from the site title
-
-##### New Feature (V1.3.1)
-
-- Support **PingFang (苹方)**, the new Chinese font presented by [OS X El Capitan](http://www.apple.com/cn/osx/whats-new/)
-
-
-##### New Feature (V1.3)
-
-- Big Improvement to the **Navigation Menu** *(especially in Android)*:  Dropping the old, stuttering, low-performance [Bootstrap collapse.js](http://getbootstrap.com/javascript/#collapse),  replaced with an own wrote, [jank free](http://jankfree.org/) navbar menu in a pretty high-performance implementation of [Google Material Design](https://www.google.com/design/spec/material-design/introduction.html).
-
-<img src="http://huangxuan.me/img/blog-md-navbar.gif" width="320" />
-
-
-##### New Feature (V1.2)
-
-- Brand new **[Keynote Layout](#keynote-layout)** is provided for easily posting beautiful HTML presentations you have created with this blog
-
-
-##### New Feature (V1.1)
-
-- We now support a clean and gorgeous **[SideBar](#sidebar)** for displaying more info
-- **[Friends](#friends)** is also added as a common feature of blog help you do SEO
-
-##### V1.0
-
-- Full-feature **Tag** support
-- **Mobile first** user experience optimization
-- **Typographic optimization** for Chinese Fonts
-- **Network optimizaition** for China, dropping Google webfont, using local CDN
-- Using [Github Flavored Markdown](https://help.github.com/articles/github-flavored-markdown/)
-- Using Baidu, Tencent/QQ analytics
-- Using [DuoShuo](http://duoshuo.com/) as the Disqus-like third party discussion system
-
-
-## Support
-
-- **Feel free to fork. I'll Appreciate it if you keep the Author & Github link at footer**
-- Give it a **Star** if you like, fork or just clone to use ;)
-- If any problem or requirement, just open an issue here and I will help you.
-
 
 ## Document
 
@@ -158,7 +70,6 @@ tags:
 
 #### SideBar
 
-![](http://huangxuan.me/img/blog-sidebar.jpg)
 
 Seeing more information may be necessary for you to display, from V1.1, a clean, gorgeous **SideBar** is added for you, which provide more area for displaying possible modules. You can enable *(it is default enable)* this feature by simply config:
 
@@ -218,7 +129,6 @@ friends: [
 
 #### Keynote Layout
 
-![](http://huangxuan.me/img/blog-keynote.jpg)
 
 There is a increasing tendency to use Open Web technology to create keynotes, presentations, like Reveal.js, Impress.js, Slides, Prezi etc. I consider a modern blog should have abilities to post these HTML based presentation easily also abilities to play it directly.
 
