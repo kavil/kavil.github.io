@@ -4,7 +4,7 @@ Hey，我是黄凯<br>
 90后<br>
 huangkai361@gmail.com<br>
 曾就职于`珍爱网`<br>
-2016年联合创立`二度科技`并担任技术总监<br>
+2016年曾联合创立`二度科技`并担任技术总监<br>
 目前任职`极光大数据`之高级前端开发
 
 喜欢看着夜空
@@ -16,7 +16,7 @@ huangkai361@gmail.com<br>
 从2009年大一开始维护学校的supersite网站、论坛而入门<br>
 <!-- 工具历程 `文本编辑器`、`notepad`、`sublime`、`vsCode`; -->
 
-目前主要技术栈 `node`、`angular`
+目前主要技术栈 `Node`、`Angular`、`React`
 <br>
 <br>
 一个不安分的前端开发者
