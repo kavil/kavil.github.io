@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "ng2之RouteReuse路由复用策略"
+title:      "Angular之RouteReuse路由复用策略"
 subtitle:   ""
 date:       2017-05-16 21:51:19
 author:     "Kai"
