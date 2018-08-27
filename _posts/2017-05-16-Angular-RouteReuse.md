@@ -108,3 +108,38 @@ constructor(
 }
 ```
 需要注意的是`shouldReuseRoute`会被执行四次，分别为四种状态，要注意区分。
+
+### 清除缓存
+
+最后我们要清除缓存，还是在一开始的路由复用策略的服务中声明。然后在需要的组件中调用就行。
+
+```js
+    clearCacheRouters() {
+        for (const key in this.cacheRouters) {// 清除所有缓存 当然 你也可以自定义清除部分缓存
+            this.cacheRouters[key] = null;
+        }
+    }
+
+```
+惯例，肯定要有注意的地方，放心`坑`我都替你踩过了，如果是同一组件只是链接不同比如list?page=1 、 list?page=2 会出现这个错误[https://github.com/angular/angular/issues/13831](https://github.com/angular/angular/issues/13831)
+目前有效解决方案是使用`componentRef`的`destroy`方法
+
+```js
+    clearCacheRouters() {
+        for (let key in this.cacheRouters) {
+            if (this.cacheRouters[key]){
+                this.deactivateOutlet(this.cacheRouters[key])
+            }
+        }
+    }
+
+    private deactivateOutlet(handle: DetachedRouteHandle): void {
+        let componentRef: ComponentRef<any> = handle ? handle['componentRef'] : null;
+        if (componentRef) {
+            componentRef.destroy();
+        }
+    }
+
+
+```
+还有什么坑，欢迎留言
