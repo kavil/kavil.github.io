@@ -2,7 +2,7 @@
 layout:     post
 title:      "NgDragSelectTable"
 subtitle:   ""
-date:       2018年08月28日14:35:37
+date:       2018-08-28 14:39:17
 author:     "Kai"
 header-img: "img/post-bg-re-vs-ng2.jpg"
 catalog: true
