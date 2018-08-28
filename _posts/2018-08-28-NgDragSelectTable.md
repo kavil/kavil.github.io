@@ -37,7 +37,7 @@ tags:
 
 angular 6 component
 
-![预览图](../img/in-post/dragtable.gif)
+![预览图](/img/in-post/dragtable.gif)
 
 *This project is a Demo, you can clone it to build.*<br>
 *Public component in `projects` folder*<br>
