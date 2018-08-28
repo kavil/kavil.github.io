@@ -15,6 +15,8 @@ tags:
 
 这两天有空 整理了下
 
+[https://github.com/kavil/NgDragSelectTable](https://github.com/kavil/NgDragSelectTable)
+
 # NgDragSelectTable
 [![NPM](https://nodei.co/npm/drag-select-table.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/drag-select-table)
 
