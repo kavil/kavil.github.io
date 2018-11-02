@@ -20,7 +20,7 @@ tags:
 ### 举个例子
 
 这两个单词`kitten`and`sitting`的levenshtein距离是 3。
-1. kitten → sitten (第一步 `k` 替换成 `d`)
+1. kitten → sitten (第一步 `k` 替换成 `s`)
 2. sitten → sittin (第二步 `e` 替换成 `i`)
 3. sittin → sitting (最后加上`g`)
 
