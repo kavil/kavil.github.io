@@ -30,7 +30,7 @@ author:     "Kai"
     <button type="submit">登录</button>
 </form>
 ```
-![登录](../img/in-post/login.png)
+![登录](/img/in-post/login.png)
 
 # 从后端接口要post的数据格式开始
 
@@ -277,7 +277,7 @@ export class ArrayFormComponent implements OnInit {
 <br>全部代码如下<br>
 [![Edit 最复杂却又最简单的Angular表单](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/y04k6lno8v)
 
-![res](../img/in-post/res.png)
+![res](/img/in-post/res.png)
 
 
 ## 祝大家圣诞🎄快乐
